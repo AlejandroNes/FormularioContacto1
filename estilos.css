@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container{
+    width: 450px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    border-radius: 1em;
+    box-shadow: 2px 2px 3px black;
+    transition: all 600ms ease;
+}
+.container:hover{
+  transform: translateY(-3%);
+  box-shadow: 4px 4px 10px black;
+}
+.titulo{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.boddy{
+    width: 90%;
+    height: 300px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.image{
+    width: 45%;
+}
+.form{
+    width: 45%;
+    font-size: 18px;
+    color: #fff;
+}
+input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    color: whitesmoke;
+    font-size: 15px;
+}
+textarea{
+    background: none;
+    border: 1px solid #fff;
+    max-width: 200px;
+    max-height: 40px;
+    min-width: 200px;
+    outline: none;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.submit{
+    background-color: rgb(19, 106, 146);
+    padding: 10px 30px;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.submit:hover{
+    background-color: #fff;
+    color: rgb(35, 100, 223);
+}
+.submit:active{
+    transform: scale(.8);
+
+}
